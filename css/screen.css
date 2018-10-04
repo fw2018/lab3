@@ -204,6 +204,7 @@ label {
   display: block;
   font-family: 'Roboto', 'Lato' sans-serif;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 p{
@@ -211,12 +212,14 @@ p{
     text-align: center;
     font-size: 1.375em; /* 22px */
     font-weight: bold;
+    padding-bottom: 1em;
 }
 
 h1 {
   font-family: 'Lato', 'Raleway', sans-serif;
   text-align: center;
   color: #808080;
+  padding-bottom: 1em;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -229,9 +232,16 @@ h1 {
     width: 100%
     background-color:#696969;
   }
+  input[type="email"]{
+    margin: auto;
+    padding-bottom: 1.375em; /*22px */
+  }
+  input[type="checkbox"]{
+    float:left;
+    width: auto;
+    height:auto;
+  }
 }
-
-@media screen and (max-width: 960px)
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
