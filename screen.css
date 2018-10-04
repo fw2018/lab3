@@ -220,7 +220,13 @@ h1 {
 }
 
 /* ===== LAYOUT STYLES ====== */
+@media screen and (max-width: 480px) {
+  body, html {
+    min-height: 100%;
+  }
+}
 
+@media screen and (max-width: 960px)
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
