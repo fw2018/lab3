@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
- v2.0 | 20110126
- License: none (public domain)
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,65 +16,36 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-display: block;
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+html {
+	line-height: 1;
 }
 body {
-line-height: 1;
+  line-height: inherit;
 }
 ol, ul {
-list-style:georgian;
+	list-style: none;
 }
 blockquote, q {
-quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-content: '';
-content: none;
+	content: '';
+	content: none;
 }
 table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-
-@media screen and (max-wdth: 960px) {
-  form,
-  {
-    text-align: center;
-  width:100%;
-  }
-}
-
-body {
-  background-color: #EEE8AA;
-  margin-left: auto;
-  margin-left: auto;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 35px;
-}
-
-h1 {
-  text-align:center;
-  font-size: 50px;
-  color: inherit;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-li {
-  font-size: 35px;
-  color: inherit;
-  padding-top: 20px;
-
+	border-collapse: collapse;
+	border-spacing: 0;
 }
